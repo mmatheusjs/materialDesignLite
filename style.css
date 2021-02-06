@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;700&display=swap');
+
+*  {
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(97, 28, 28);
+    padding: 30px;
+    display:flex;
+    align-items:baseline;
+    justify-content: center;
+    width: 100%;
+}
+
+header nav a {
+    color:rgb(252, 193, 193);
+    text-decoration: none;
+    padding: 0 100px;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+/* Introdução */
+
+#mdl-introducao {
+    background-color: rgb(255, 255, 255); 
+    padding: 40px;
+    margin: 10px 20px;  
+}
+
+.titulo h1 {
+    font-size: 50px;
+    color:rgb(97, 28, 28);
+    text-align: center;
+}
+
+#introducao {
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.texto h2 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(97, 28, 28);
+}
+
+.texto p {
+    text-align: justify;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* PRINCIPIOS */
+
+#principios {
+    background-color: rgb(243, 217, 217);
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+#principios .texto h2 {
+    margin-bottom: 40px;
+}
+/* LISTA */
+
+.lista li {
+    font-size: 20px;
+}
+
+/* Button */
+
+.button {
+    text-align: center;
+}
+
